@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41401E171C5CC498003FD930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41401E161C5CC498003FD930 /* AppDelegate.swift */; };
+		41401E191C5CC498003FD930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41401E181C5CC498003FD930 /* ViewController.swift */; };
+		41401E1C1C5CC498003FD930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41401E1A1C5CC498003FD930 /* Main.storyboard */; };
+		41401E1E1C5CC498003FD930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41401E1D1C5CC498003FD930 /* Assets.xcassets */; };
+		41401E211C5CC498003FD930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41401E1F1C5CC498003FD930 /* LaunchScreen.storyboard */; };
+		41401E2C1C5CC498003FD930 /* Aardrijkskunde_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41401E2B1C5CC498003FD930 /* Aardrijkskunde_QuizTests.swift */; };
+		41401E371C5CC498003FD930 /* Aardrijkskunde_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41401E361C5CC498003FD930 /* Aardrijkskunde_QuizUITests.swift */; };
+		41401E451C5CEC4D003FD930 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41401E441C5CEC4D003FD930 /* QuestionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41401E281C5CC498003FD930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41401E0B1C5CC498003FD930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41401E121C5CC498003FD930;
+			remoteInfo = "Aardrijkskunde Quiz";
+		};
+		41401E331C5CC498003FD930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41401E0B1C5CC498003FD930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41401E121C5CC498003FD930;
+			remoteInfo = "Aardrijkskunde Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41401E131C5CC498003FD930 /* Aardrijkskunde Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aardrijkskunde Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41401E161C5CC498003FD930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41401E181C5CC498003FD930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41401E1B1C5CC498003FD930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41401E1D1C5CC498003FD930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41401E201C5CC498003FD930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41401E221C5CC498003FD930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41401E271C5CC498003FD930 /* Aardrijkskunde QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aardrijkskunde QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41401E2B1C5CC498003FD930 /* Aardrijkskunde_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aardrijkskunde_QuizTests.swift; sourceTree = "<group>"; };
+		41401E2D1C5CC498003FD930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41401E321C5CC498003FD930 /* Aardrijkskunde QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aardrijkskunde QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41401E361C5CC498003FD930 /* Aardrijkskunde_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aardrijkskunde_QuizUITests.swift; sourceTree = "<group>"; };
+		41401E381C5CC498003FD930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41401E441C5CEC4D003FD930 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41401E101C5CC498003FD930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41401E241C5CC498003FD930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41401E2F1C5CC498003FD930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41401E0A1C5CC498003FD930 = {
+			isa = PBXGroup;
+			children = (
+				41401E151C5CC498003FD930 /* Aardrijkskunde Quiz */,
+				41401E2A1C5CC498003FD930 /* Aardrijkskunde QuizTests */,
+				41401E351C5CC498003FD930 /* Aardrijkskunde QuizUITests */,
+				41401E141C5CC498003FD930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41401E141C5CC498003FD930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41401E131C5CC498003FD930 /* Aardrijkskunde Quiz.app */,
+				41401E271C5CC498003FD930 /* Aardrijkskunde QuizTests.xctest */,
+				41401E321C5CC498003FD930 /* Aardrijkskunde QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41401E151C5CC498003FD930 /* Aardrijkskunde Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				41401E161C5CC498003FD930 /* AppDelegate.swift */,
+				41401E181C5CC498003FD930 /* ViewController.swift */,
+				41401E441C5CEC4D003FD930 /* QuestionViewController.swift */,
+				41401E1A1C5CC498003FD930 /* Main.storyboard */,
+				41401E1D1C5CC498003FD930 /* Assets.xcassets */,
+				41401E1F1C5CC498003FD930 /* LaunchScreen.storyboard */,
+				41401E221C5CC498003FD930 /* Info.plist */,
+			);
+			path = "Aardrijkskunde Quiz";
+			sourceTree = "<group>";
+		};
+		41401E2A1C5CC498003FD930 /* Aardrijkskunde QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				41401E2B1C5CC498003FD930 /* Aardrijkskunde_QuizTests.swift */,
+				41401E2D1C5CC498003FD930 /* Info.plist */,
+			);
+			path = "Aardrijkskunde QuizTests";
+			sourceTree = "<group>";
+		};
+		41401E351C5CC498003FD930 /* Aardrijkskunde QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41401E361C5CC498003FD930 /* Aardrijkskunde_QuizUITests.swift */,
+				41401E381C5CC498003FD930 /* Info.plist */,
+			);
+			path = "Aardrijkskunde QuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41401E121C5CC498003FD930 /* Aardrijkskunde Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41401E3B1C5CC498003FD930 /* Build configuration list for PBXNativeTarget "Aardrijkskunde Quiz" */;
+			buildPhases = (
+				41401E0F1C5CC498003FD930 /* Sources */,
+				41401E101C5CC498003FD930 /* Frameworks */,
+				41401E111C5CC498003FD930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aardrijkskunde Quiz";
+			productName = "Aardrijkskunde Quiz";
+			productReference = 41401E131C5CC498003FD930 /* Aardrijkskunde Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41401E261C5CC498003FD930 /* Aardrijkskunde QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41401E3E1C5CC498003FD930 /* Build configuration list for PBXNativeTarget "Aardrijkskunde QuizTests" */;
+			buildPhases = (
+				41401E231C5CC498003FD930 /* Sources */,
+				41401E241C5CC498003FD930 /* Frameworks */,
+				41401E251C5CC498003FD930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41401E291C5CC498003FD930 /* PBXTargetDependency */,
+			);
+			name = "Aardrijkskunde QuizTests";
+			productName = "Aardrijkskunde QuizTests";
+			productReference = 41401E271C5CC498003FD930 /* Aardrijkskunde QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41401E311C5CC498003FD930 /* Aardrijkskunde QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41401E411C5CC498003FD930 /* Build configuration list for PBXNativeTarget "Aardrijkskunde QuizUITests" */;
+			buildPhases = (
+				41401E2E1C5CC498003FD930 /* Sources */,
+				41401E2F1C5CC498003FD930 /* Frameworks */,
+				41401E301C5CC498003FD930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41401E341C5CC498003FD930 /* PBXTargetDependency */,
+			);
+			name = "Aardrijkskunde QuizUITests";
+			productName = "Aardrijkskunde QuizUITests";
+			productReference = 41401E321C5CC498003FD930 /* Aardrijkskunde QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41401E0B1C5CC498003FD930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = marienkoen;
+				TargetAttributes = {
+					41401E121C5CC498003FD930 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VN376ZYR62;
+					};
+					41401E261C5CC498003FD930 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41401E121C5CC498003FD930;
+					};
+					41401E311C5CC498003FD930 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41401E121C5CC498003FD930;
+					};
+				};
+			};
+			buildConfigurationList = 41401E0E1C5CC498003FD930 /* Build configuration list for PBXProject "Aardrijkskunde Quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41401E0A1C5CC498003FD930;
+			productRefGroup = 41401E141C5CC498003FD930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41401E121C5CC498003FD930 /* Aardrijkskunde Quiz */,
+				41401E261C5CC498003FD930 /* Aardrijkskunde QuizTests */,
+				41401E311C5CC498003FD930 /* Aardrijkskunde QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41401E111C5CC498003FD930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41401E211C5CC498003FD930 /* LaunchScreen.storyboard in Resources */,
+				41401E1E1C5CC498003FD930 /* Assets.xcassets in Resources */,
+				41401E1C1C5CC498003FD930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41401E251C5CC498003FD930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41401E301C5CC498003FD930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41401E0F1C5CC498003FD930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41401E191C5CC498003FD930 /* ViewController.swift in Sources */,
+				41401E171C5CC498003FD930 /* AppDelegate.swift in Sources */,
+				41401E451C5CEC4D003FD930 /* QuestionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41401E231C5CC498003FD930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41401E2C1C5CC498003FD930 /* Aardrijkskunde_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41401E2E1C5CC498003FD930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41401E371C5CC498003FD930 /* Aardrijkskunde_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41401E291C5CC498003FD930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41401E121C5CC498003FD930 /* Aardrijkskunde Quiz */;
+			targetProxy = 41401E281C5CC498003FD930 /* PBXContainerItemProxy */;
+		};
+		41401E341C5CC498003FD930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41401E121C5CC498003FD930 /* Aardrijkskunde Quiz */;
+			targetProxy = 41401E331C5CC498003FD930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41401E1A1C5CC498003FD930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41401E1B1C5CC498003FD930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41401E1F1C5CC498003FD930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41401E201C5CC498003FD930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41401E391C5CC498003FD930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41401E3A1C5CC498003FD930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41401E3C1C5CC498003FD930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Koen Marien (VN376ZYR62)";
+				INFOPLIST_FILE = "Aardrijkskunde Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.marienkoen.Aardrijkskunde-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "232130a1-2be5-402c-961f-a5f14b6b79aa";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		41401E3D1C5CC498003FD930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Koen Marien (VN376ZYR62)";
+				INFOPLIST_FILE = "Aardrijkskunde Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.marienkoen.Aardrijkskunde-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "232130a1-2be5-402c-961f-a5f14b6b79aa";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		41401E3F1C5CC498003FD930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aardrijkskunde QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.marienkoen.Aardrijkskunde-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aardrijkskunde Quiz.app/Aardrijkskunde Quiz";
+			};
+			name = Debug;
+		};
+		41401E401C5CC498003FD930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aardrijkskunde QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.marienkoen.Aardrijkskunde-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aardrijkskunde Quiz.app/Aardrijkskunde Quiz";
+			};
+			name = Release;
+		};
+		41401E421C5CC498003FD930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aardrijkskunde QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.marienkoen.Aardrijkskunde-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Aardrijkskunde Quiz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		41401E431C5CC498003FD930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aardrijkskunde QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.marienkoen.Aardrijkskunde-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Aardrijkskunde Quiz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41401E0E1C5CC498003FD930 /* Build configuration list for PBXProject "Aardrijkskunde Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41401E391C5CC498003FD930 /* Debug */,
+				41401E3A1C5CC498003FD930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41401E3B1C5CC498003FD930 /* Build configuration list for PBXNativeTarget "Aardrijkskunde Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41401E3C1C5CC498003FD930 /* Debug */,
+				41401E3D1C5CC498003FD930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41401E3E1C5CC498003FD930 /* Build configuration list for PBXNativeTarget "Aardrijkskunde QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41401E3F1C5CC498003FD930 /* Debug */,
+				41401E401C5CC498003FD930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41401E411C5CC498003FD930 /* Build configuration list for PBXNativeTarget "Aardrijkskunde QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41401E421C5CC498003FD930 /* Debug */,
+				41401E431C5CC498003FD930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41401E0B1C5CC498003FD930 /* Project object */;
+}
